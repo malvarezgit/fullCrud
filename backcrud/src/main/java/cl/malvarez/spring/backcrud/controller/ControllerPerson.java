@@ -32,9 +32,7 @@ import cl.malvarez.spring.backcrud.service.ServicePerson;
  */
 
 /*
- Nota: Como buena practica se puede retornar un value object (asi no se llega al cliente con una entidad persistente), 
- el VO es la representacion de la entidad, ademas existen las clases Mappers que copian los datos de la 
- entidad base datos a su equivalente value object.  Por temas de tiempo no se implementa VO y Mappers.
+ Nota: Como buena practica se puede trabajar con VO y Mappers. Por temas de tiempo no se implementan.
 */
 
 @CrossOrigin(origins = {"http://localhost:4200"})
