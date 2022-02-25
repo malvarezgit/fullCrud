@@ -4,6 +4,11 @@ import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlRootElement;
 
+/**
+ * Clase que representa a la entidad telefono.
+ * @author malvarez
+ *
+ */
 @XmlRootElement(name = "phone")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Phone {
