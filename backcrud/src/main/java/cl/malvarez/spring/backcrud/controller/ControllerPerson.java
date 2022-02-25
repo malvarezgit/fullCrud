@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -35,7 +36,7 @@ import cl.malvarez.spring.backcrud.service.ServicePerson;
  Nota: Como buena practica se puede trabajar con VO y Mappers. Por temas de tiempo no se implementan.
 */
 
-@CrossOrigin(origins = {"http://localhost:4200"})
+@CrossOrigin(origins = {"http://localhost:4200"}) //Esta configuracion es local, pero se puede hacer de forma global a traves de @Configuration, accediendo al CorsRegistry.
 @RestController
 @RequestMapping("/api")
 @Validated
